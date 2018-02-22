@@ -1,0 +1,23 @@
+body{
+    background-image: url('../../assets/images/fortnite.png');
+}
+
+img {
+    height: 130px;
+    width: 120px;
+}
+
+.jumbotron {
+    background: rgba(160, 157, 157, 0.4);
+    color:black;
+}
+
+#compNumber {
+    font-size: 300%;
+    color: red;
+}
+
+#yourScore {
+    font-size: 300%;
+    color: green;
+}

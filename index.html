@@ -2,14 +2,12 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
   <title>Crystal Collector</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
-  <script src="main.js"></script>
+  
 </head>
 
 <body>
@@ -22,62 +20,145 @@
     </div>
   </div>
 
-<div class="row">
-  <div class="col-lg-12">
+  <div class="row">
+    <div class="col-lg-12">
 
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="Panel-title">
-          <strong>1) You will be given a random number at the start of the game.</strong>
-        </h3>
-      </div>
-<div class="row">
-  <div class="col-lg-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="Panel-title">
+            <strong>1) You will be given a random number at the start of the game.</strong>
+          </h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
 
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="Panel-title">
-          <strong>2) There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</strong>
-        </h3>
-      </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="Panel-title">
+                  <strong>2) There are four crystals below. By clicking on a crystal you will add a specific amount of points to
+                    your total score.</strong>
+                </h3>
+              </div>
 
-<div class="row">
-  <div class="col-lg-12">
+              <div class="row">
+                <div class="col-lg-12">
 
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="Panel-title">
-          <strong>3) You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</strong>
-        </h3>
-      </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h3 class="Panel-title">
+                        <strong>3) You win the game by matching your total score to random number, you lose the game if your total
+                          score goes above the random number.</strong>
+                      </h3>
+                    </div>
 
-<div class="row">
-  <div class="col-lg-12">
+                    <div class="row">
+                      <div class="col-lg-12">
 
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="Panel-title">
-          <strong>4) The value of each crystal is hidden from you until you click on it.</strong>
-        </h3>
-      </div>
-
-
-<div class="row">
-  <div class="col-lg-12">
-
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="Panel-title">
-          <strong>5)Each time when the game starts, the game will change the values of each crystal.</strong>
-        </h3>
-      </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h3 class="Panel-title">
+                              <strong>4) The value of each crystal is hidden from you until you click on it.</strong>
+                            </h3>
+                          </div>
 
 
+                          <div class="row">
+                            <div class="col-lg-12">
 
-  <img src="assets/images/crystalimage.jpeg" style="width:200px;height:200px;">
-  <img src="assets/images/malachite.jpeg" style="width:200px;height:200px;">
-  <img src="assets/images/redcrystal.png" style="width:200px;height:200px;">
-  <img src="assets/images/shawdowshard.png" style="width:200px;height:200px;">
+                              <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <h3 class="Panel-title">
+                                    <strong>5) Each time when the game starts, the game will change the values of each crystal.</strong>
+                                  </h3>
+                                </div>
+
+                                <div class="col-md-12"></div>
+                                <div class="col-md-12">
+                                  <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                      <h3 class="panel-title">Number </h3>
+                                    </div>
+                                    <div class="panel-body">
+                                      <span id="compNumber">0</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3"></div>
+                              </div>
+                            </div>
+
+
+
+                            <div class="col-md-12"></div>
+                            <div class="col-md-12">
+                              <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <h3 class="panel-title">Your Score </h3>
+                                </div>
+                                <div class="panel-body">
+                                  <span id="yourScore">0</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-3"></div>
+                          </div>
+                        </div>
+
+
+                        <div class="col-md-12"></div>
+                        <div class="col-md-12">
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h3 class="panel-title">wins </h3>
+                            </div>
+                            <div class="panel-body">
+                              <span id="wins">0</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3"></div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12"></div>
+                    <div class="col-md-12">
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h3 class="panel-title">losses </h3>
+                        </div>
+                        <div class="panel-body">
+                          <span id="losses">0</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3"></div>
+                  </div>
+                </div>
+
+
+
+
+                <div class="row">
+                  <div class="col-md-2"></div>
+                  <div class="btn-group" role="group" aria-label="....">
+
+                    <button id="crystal" type="button" class="btn btn btn-default">
+                      <img src="assets/images/crystalimage.jpeg" style="width:200px;height:200px;">
+                    </button>
+
+                    <button id="malachite" type="button" class="btn btn btn-default">
+                      <img src="assets/images/malachite.jpeg" style="width:200px;height:200px;">
+                    </button>
+
+                    <button id="redcrystal" type="button" class="btn btn btn-default">
+                      <img src="assets/images/redcrystal.png" style="width:200px;height:200px;">
+                    </button>
+
+                    <button id="shawdowshard" type="button" class="btn btn btn-default">
+                      <img src="assets/images/shawdowshard.png" style="width:200px;height:200px;">
+                    </button>
+                  </div>
+
 </body>
-
+<script type="text/javascript" src="game.js"></script>
 </html>
